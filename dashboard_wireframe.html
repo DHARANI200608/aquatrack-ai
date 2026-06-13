@@ -1,0 +1,83 @@
+<h2 class="sr-only">Wireframe layout for the AquaTrack-AI dashboard showing navigation, risk map, alerts and stats</h2>
+<div style="background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1rem;">
+
+<div style="display:flex; justify-content:space-between; align-items:center; background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:12px 16px; margin-bottom:12px;">
+  <span style="font-weight:500; font-size:15px;"><i class="ti ti-droplet" style="margin-right:8px;" aria-hidden="true"></i>AquaTrack-AI</span>
+  <div style="display:flex; gap:16px; font-size:13px; color:var(--color-text-secondary);">
+    <span>Dashboard</span><span>Map</span><span>Alerts</span><span>Reports</span>
+  </div>
+</div>
+
+<div style="display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:12px; margin-bottom:12px;">
+  <div style="background:var(--color-background-primary); border-radius:var(--border-radius-md); padding:1rem;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">Villages monitored</p>
+    <p style="font-size:24px; font-weight:500; margin:0;">12</p>
+  </div>
+  <div style="background:var(--color-background-primary); border-radius:var(--border-radius-md); padding:1rem;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">High risk zones</p>
+    <p style="font-size:24px; font-weight:500; margin:0;">3</p>
+  </div>
+  <div style="background:var(--color-background-primary); border-radius:var(--border-radius-md); padding:1rem;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">Alerts sent today</p>
+    <p style="font-size:24px; font-weight:500; margin:0;">7</p>
+  </div>
+</div>
+
+<div style="display:grid; grid-template-columns: 2fr 1fr; gap:12px;">
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:12px; min-height:220px;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 8px;">Risk map (color coded by village)</p>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); grid-template-rows:repeat(3,1fr); gap:6px; height:170px;">
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-amber" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-red" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-amber" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-red" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-green" style="border-radius:var(--border-radius-md);"></div>
+      <div class="c-amber" style="border-radius:var(--border-radius-md);"></div>
+    </div>
+  </div>
+
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:12px;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 8px;">Recent alerts</p>
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      <div class="c-red" style="border-radius:var(--border-radius-md); padding:8px;">
+        <p class="t" style="margin:0; font-size:13px;">Village A — high risk</p>
+        <p class="ts" style="margin:0; font-size:12px;">Sent 10 min ago</p>
+      </div>
+      <div class="c-amber" style="border-radius:var(--border-radius-md); padding:8px;">
+        <p class="t" style="margin:0; font-size:13px;">Village D — medium risk</p>
+        <p class="ts" style="margin:0; font-size:12px;">Sent 1 hr ago</p>
+      </div>
+      <div class="c-amber" style="border-radius:var(--border-radius-md); padding:8px;">
+        <p class="t" style="margin:0; font-size:13px;">Village F — medium risk</p>
+        <p class="ts" style="margin:0; font-size:12px;">Sent 3 hr ago</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap:12px; margin-top:12px;">
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:1rem; text-align:center;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">pH level</p>
+    <p style="font-size:18px; font-weight:500; margin:0;">7.1</p>
+  </div>
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:1rem; text-align:center;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">Turbidity</p>
+    <p style="font-size:18px; font-weight:500; margin:0;">4.2 NTU</p>
+  </div>
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:1rem; text-align:center;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">Bacteria count</p>
+    <p style="font-size:18px; font-weight:500; margin:0;">120 CFU</p>
+  </div>
+  <div style="background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-md); padding:1rem; text-align:center;">
+    <p style="font-size:13px; color:var(--color-text-secondary); margin:0 0 4px;">Predicted risk</p>
+    <p style="font-size:18px; font-weight:500; margin:0;">Medium</p>
+  </div>
+</div>
+
+</div>
