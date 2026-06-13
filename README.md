@@ -19,4 +19,13 @@ Water-Borne Diseases in Rural Northeast India
 - Streamlit (Dashboard)
 - Folium (Maps)
 - Twilio (SMS alerts)
+- Frontend
+Developed using HTML, CSS, JavaScript, and Bootstrap.
+Provides interfaces for citizen reporting, dashboard visualization, water quality monitoring, and outbreak alerts.
+## Backend
+Developed using Python Flask and MySQL.
+Handles data collection, storage, disease risk prediction, alert generation, and dashboard management.
+## AIML Module
+Uses machine learning algorithms to analyze symptoms and water quality data.
+Predicts the risk of water-borne disease outbreaks and supports early warning notifications.
 
