@@ -207,7 +207,18 @@ The database is used to store and manage health reports, water quality data, dis
  Alerts
 
  Admin Details
+ 
 
 
 ---
+## Navigation Structure
+
+* **Home** – Project overview and system information
+* **Dashboard** – View health statistics and disease trends
+* **Risk Map** – Display high-risk and affected areas
+* **Health Reports** – Submit and manage citizen health reports
+* **Water Quality** – Monitor water quality parameters
+* **Alerts** – View outbreak warnings and notifications
+* **Admin Panel** – Manage data, reports, and alerts
+
 
