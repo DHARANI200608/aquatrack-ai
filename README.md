@@ -5,7 +5,7 @@ water-borne disease outbreaks in rural Northeast India, sending real-time
 alerts to communities and health authorities.
 
 ## Problem Statement
-SIH25001 - Smart Community Health Monitoring and Early Warning System for 
+ Smart Community Health Monitoring and Early Warning System for 
 Water-Borne Diseases in Rural Northeast India
 
 ## Features
