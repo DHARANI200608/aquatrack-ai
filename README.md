@@ -1,5 +1,5 @@
 
-# AquaTrack-AI 🌊
+# AquaTrack-AI 
 
 ##  Smart Community Health Monitoring & Early Warning System for Water-Borne Diseases 
 
@@ -18,12 +18,12 @@ The project aims to detect potential water-borne disease outbreaks at an early s
 
 ## Features
 
-* 🤖 ML-based disease outbreak risk prediction
-* 🗺️ Real-time risk mapping
-* 📱 SMS alerts to communities
-* 📊 Health monitoring dashboard
-* 💧 Water quality monitoring
-* 🚨 Early warning notification system
+*  ML-based disease outbreak risk prediction
+*  Real-time risk mapping
+*  SMS alerts to communities
+*  Health monitoring dashboard
+*  Water quality monitoring
+*  Early warning notification system
 
 ---
 
