@@ -1,7 +1,7 @@
 
 # AquaTrack-AI 🌊
 
-## # Smart Community Health Monitoring & Early Warning System for Water-Borne Diseases 
+##  Smart Community Health Monitoring & Early Warning System for Water-Borne Diseases 
 
 
 AquaTrack-AI is a Smart Community Health Monitoring and Early Warning System designed to monitor water quality, analyze community health data, predict water-borne disease outbreaks, and provide real-time alerts to communities and health authorities.
