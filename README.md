@@ -176,15 +176,6 @@ The AI module follows these steps:
 | NumPy | Numerical computation |
 | Scikit-learn | Machine Learning implementation |
 
-## Additional Tools
-
-| Tool | Purpose |
-|------|---------|
-| Streamlit | Interactive ML dashboard |
-| Folium | Geographical risk mapping |
-| Twilio | SMS alert service |
-
----
 
 # Project Objectives
 
@@ -196,13 +187,6 @@ The AI module follows these steps:
 
 ---
 
-# Future Enhancements
-
-- Integration with IoT-based water quality sensors.
-- Mobile application for citizen reporting.
-- Real-time government health database integration.
-- Advanced deep learning models for improved prediction accuracy.
-- Multilingual support for rural communities.
 
 ---
 
@@ -211,4 +195,6 @@ The AI module follows these steps:
 AquaTrack-AI provides an intelligent approach for monitoring community health and predicting water-borne disease outbreaks. By combining Machine Learning, data analytics, mapping technologies, and automated alerts, the system supports early detection and preventive healthcare management.
 
 ---
+# PROJECT EXPLANATION VEDIO
+https://drive.google.com/file/d/1QDkDEZicZfS65ofEuBwdkL3SWlrbDtCD/view?usp=sharing
 
