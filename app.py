@@ -91,7 +91,8 @@ border-radius:8px !important;padding:12px !important;}
 # ══════════════════════════════════════════
 # SQLITE DATABASE SETUP
 # ══════════════════════════════════════════
-DB_PATH = '../data/waterborne_ews.db'
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = str(BASE_DIR / "waterborne_ews.db")
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
