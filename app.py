@@ -8,6 +8,7 @@ import warnings
 import sqlite3
 import hashlib
 import os
+from pathlib import Path
 from datetime import datetime
 from fpdf import FPDF
 warnings.filterwarnings('ignore')
