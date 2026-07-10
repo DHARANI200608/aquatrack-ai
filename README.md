@@ -195,6 +195,6 @@ The AI module follows these steps:
 AquaTrack-AI provides an intelligent approach for monitoring community health and predicting water-borne disease outbreaks. By combining Machine Learning, data analytics, mapping technologies, and automated alerts, the system supports early detection and preventive healthcare management.
 
 ---
-# PROJECT EXPLANATION VEDIO
+# Project Explanation Vedio
 https://drive.google.com/file/d/1QDkDEZicZfS65ofEuBwdkL3SWlrbDtCD/view?usp=sharing
 
